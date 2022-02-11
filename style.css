@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
+
+html,
+body {
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+body {
+  background: #202124;
+  color: white;
+  font-family: Bitter, serif;
+  font-weight: 400;
+  font-size: small;
+}
+
+table {
+  border: 3px solid white;
+  border-radius: 5px;
+  height: 100%;
+  margin-top: 50px;
+  width: 100%;
+}
+
+table:first-child {
+  margin-top: 0px;
+}
+
+img {
+  border-radius: 25 px;
+}
+
+button {
+  background: transparent;
+  color: #8ab4f8;
+  border: 0px;
+  margin-top: 5px;
+}
+
+#info {
+  display: none;
+  animation: noob 10s ease-in-out;
+}
+/*
+#info:visited {
+	transition: display 2s ease-in-out;
+
+} */
+
+@keyframes noob {
+  from {
+    display: none;
+  }
+  to {
+    display: table-row;
+  }
+}
